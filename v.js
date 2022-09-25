@@ -1,6 +1,6 @@
 const ax = require("axios");
 const ex = require("express");
-const url= 'https://www.nseindia.com/market-data/live-market-indices'
+const url= 'https://www.nseindia.com/get-quotes/derivatives?symbol=BANKNIFTY&identifier=OPTIDXBANKNIFTY29-09-2022PE39500.00https://www.nseindia.com/get-quotes/derivatives?symbol=BANKNIFTY&identifier=OPTIDXBANKNIFTY29-09-2022PE39500.00'
 const nft= 'https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20100'
 const path = 'v1'
 
