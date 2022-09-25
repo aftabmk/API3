@@ -6,7 +6,7 @@ const path = 'v1'
 
 const hh = {"headers": {"accept": "*/*","accept-language": "en-US,en;q=0.9","sec-fetch-dest": "empty","sec-fetch-mode": "cors","sec-fetch-site": "same-origin","sec-gpc": "1","Referrer-Policy": "strict-origin-when-cross-origin"},"body": null,"method": "GET"}
 
-f();
+
 async function f()
 {
     const req = await ax.get(url);
