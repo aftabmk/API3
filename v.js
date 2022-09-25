@@ -1,7 +1,7 @@
 const ax = require("axios");
 const ex = require("express");
 const url= 'https://www.nseindia.com/'
-const nft= 'https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%2050'
+const nft= 'https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20100'
 const path = 'v1'
 
 const hh = {"headers": {"accept": "*/*","accept-language": "en-US,en;q=0.9","sec-fetch-dest": "empty","sec-fetch-mode": "cors","sec-fetch-site": "same-origin","sec-gpc": "1","Referrer-Policy": "strict-origin-when-cross-origin"},"body": null,"method": "GET"}
