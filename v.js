@@ -1,6 +1,6 @@
 const ax = require("axios");
 const ex = require("express");
-const url= 'https://www.nseindia.com/get-quotes/derivatives?symbol=BANKNIFTY&identifier=OPTIDXBANKNIFTY29-09-2022PE39500.00https://www.nseindia.com/get-quotes/derivatives?symbol=BANKNIFTY&identifier=OPTIDXBANKNIFTY29-09-2022PE39500.00'
+const url= 'https://www.nseindia.com/'
 const nft= 'https://www.nseindia.com/api/equity-stockIndices?index=NIFTY%20100'
 const path = 'v1'
 
@@ -23,13 +23,11 @@ async function f()
     // console.log(l)
      const h = { ...hh,Referer: url,cookie:cookie}
     // // console.log(h)
-     if(h)
-     {
+   
 	     	const r1 = await ax.get(nft,h);
      		const d1 = await r1;
      		const n1 = d1.data.data
     		return n1
-     }
 
 }
 else
