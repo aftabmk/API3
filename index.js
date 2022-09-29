@@ -11,8 +11,7 @@ async function f()
 {
 	try{
 		const req = await ax.get(url);
-		const data = req.data.resultData
-		const val = data.trim
+		const data = req.data
 		return data
 		// console.log(data)
 	}
